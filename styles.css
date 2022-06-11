@@ -1,0 +1,16 @@
+:root {
+    --ff-primary: 'Roboto', sans-serif;
+    
+    --clr-dark: #1F2937;
+    --clr-main: #F9FAF8;
+    --clr-secondary: #E5E7EB;
+    --clr-btn: #3882F6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sec1 {
+    background: var(--clr-dark);
+}
