@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -13,39 +15,92 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    margin: 0;
+
+/* header is a flex item, has hover, lined with nav below*/ 
+
+
+header {
+   background: var(--clr-dark);
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 20px 50px;
 }
 
-h1 {
-    margin: 0;
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
 }
 
-.header-flex-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background: var(--clr-dark);
-}
-
-.header-link {
+header a {
+    text-decoration: none;
     color: var(--clr-secondary);
-    font-size: 18px;
-    margin-right: 30px;
+    transition: all 0.3s ease 0s;
 }
 
-.hl3 {
-    margin-right: 15%;
+header a:hover {
+    color: #F6CF57;
+}
+
+.nav {
+    display: flex;
+    
+
+}
+
+.container {
+    display: flex;
 }
 
 .logo-img {
     max-width: 100px;
     height: auto;
     border-radius: 20%;
-    margin-right: 35%;
+    margin-right: auto;
+    margin-left: 200px;
+
 }
+
+
+/* *** Section 1 Styles*** */ 
+
 
 .sec1 {
     background: var(--clr-dark);
+    color: white;
 }
 
+.sec1-container {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 250px;
+    padding-top: 50px;
+}
+
+.sec1-h1 {
+    font-size: 48px;
+}
+
+.sec1-subtext {
+    display: inline-flex;
+    color: var(--clr-secondary);
+    font-size: 18px;
+}
+
+#sign-up {
+    max-width: 120px;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    color: var(--clr-main);
+    background: var(--clr-btn);
+}
+
+
+.sec1-img {
+    max-width: 500px;
+    border-radius: 5%;
+    align-self: flex-end;
+    margin-right: 50px;
+}
