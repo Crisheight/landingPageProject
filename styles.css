@@ -43,10 +43,8 @@ header a:hover {
     color: #F6CF57;
 }
 
-.nav {
-    display: flex;
-    
-
+.nav-placement {
+    margin-right: 258px;
 }
 
 .container {
@@ -69,13 +67,13 @@ header a:hover {
 .sec1 {
     background: var(--clr-dark);
     color: white;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sec1-container {
-    display: flex;
-    flex-flow: column nowrap;
     margin-left: 250px;
-    padding-top: 50px;
+    margin-top: 75px;
 }
 
 .sec1-h1 {
@@ -83,14 +81,13 @@ header a:hover {
 }
 
 .sec1-subtext {
-    display: inline-flex;
     color: var(--clr-secondary);
     font-size: 18px;
 }
 
 #sign-up {
     max-width: 120px;
-    padding: 10px;
+    padding: 10px 35px;
     margin-top: 8px;
     border-radius: 8px;
     color: var(--clr-main);
@@ -99,8 +96,10 @@ header a:hover {
 
 
 .sec1-img {
+    display: flex;
     max-width: 500px;
     border-radius: 5%;
-    align-self: flex-end;
-    margin-right: 50px;
+    margin-left: 75px;
+    margin-bottom: 150px;
+    margin-top: 50px;
 }
