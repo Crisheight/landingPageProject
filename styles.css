@@ -103,3 +103,14 @@ header a:hover {
     margin-bottom: 150px;
     margin-top: 50px;
 }
+
+.sec2-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.sec2-h2 {
+    font-size: 36px;
+    color: var(--clr-dark);
+}
