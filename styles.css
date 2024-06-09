@@ -129,3 +129,12 @@ header a:hover {
     border-radius: 12px;
     margin: 2em 2em 0 2em;
 }
+
+.sec3-text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sec3-text-subitem {
+    margin: 1em 3em 0 2.5em;
+}
