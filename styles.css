@@ -57,11 +57,14 @@ html {
 
 
 header {
-   background: var(--clr-dark);
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   padding: 20px 50px;
+    background: var(--clr-dark);
+}
+
+.parent-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
 }
 
 header li {
@@ -81,20 +84,18 @@ header a:hover {
 }
 
 .nav-placement {
-    margin-right: 32%;
-}
-
-.container {
     display: flex;
+    margin-left: 10%;
+
 }
 
 .logo-img {
-    max-width: 5%;
-    height: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    height: 125px;
     border-radius: 20%;
-    margin-right: auto;
-    margin-left: 63rem;
-
+    margin-right: 15%;
 }
 
 
@@ -106,18 +107,17 @@ header a:hover {
     background: var(--clr-dark);
     color: white;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 .sec1-container {
     margin-left: 250px;
     margin-top: 75px;
+    margin-right: 6%;
 }
 
 .sec1-h1 {
     font-size: 48px;
-    margin-right: 5em;
 }
 
 .sec1-subtext {
@@ -127,11 +127,12 @@ header a:hover {
 
 #sign-up {
     max-width: 120px;
-    padding: 10px 35px;
-    margin-top: 8px;
     border-radius: 8px;
+    margin-top: 2%;
+    padding: 6px 32px 6px 32px;
     color: var(--clr-main);
     background: var(--clr-btn);
+    font-size: 14px;
 }
 
 
@@ -140,7 +141,7 @@ header a:hover {
     border-radius: 5%;
     margin-bottom: 150px;
     margin-top: 50px;
-    margin-right: 10em;
+    margin-right: 10%;
 }
 
 
